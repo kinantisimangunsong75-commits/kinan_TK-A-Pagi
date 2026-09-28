@@ -1,0 +1,23 @@
+# Kebutuhan Awal Sistem Inventori Laboratorium
+
+## Pengguna
+- Admin: mengelola data barang dan akun; melihat laporan.
+- Petugas: mencari barang serta mencatat peminjaman dan pengembalian.
+
+## Kebutuhan Fungsional
+- K-01: Pengguna dapat masuk ke aplikasi.
+- K-02: Admin dapat mengelola data barang.
+- K-03: Petugas dapat melihat dan mencari barang.
+- K-04: Petugas dapat mencatat peminjaman barang.
+- K-05: Petugas dapat mencatat pengembalian barang.
+- K-06: Pengguna yang berwenang dapat melihat laporan.
+
+## Aturan Awal
+- Stok barang tidak boleh negatif.
+- Peminjaman melebihi stok tersedia harus ditolak.
+- Dua klien nantinya menggunakan satu basis data server.
+
+## Pertanyaan yang Belum Diputuskan
+- Data peminjam apa saja yang wajib dicatat?
+- Apakah satu transaksi dapat memuat beberapa barang?
+- Bagaimana menangani pengembalian sebagian?
